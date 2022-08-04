@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/User/Documents/GitHub/exercises2/task1/main.cpp
+C:/Users/User/Documents/GitHub/exercises2/task1/include/functions.h
+
+C:/Users/User/Documents/GitHub/exercises2/task1/src/functions.cpp
 iostream
 -
+../include/functions.h
+C:/Users/User/Documents/GitHub/exercises2/task1/include/functions.h
+
+C:/Users/User/Documents/GitHub/exercises2/task1/src/main.cpp
+iostream
+-
+../include/functions.h
+C:/Users/User/Documents/GitHub/exercises2/task1/include/functions.h
 

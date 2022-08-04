@@ -65,32 +65,47 @@ include CMakeFiles/task1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/task1.dir/flags.make
 
-CMakeFiles/task1.dir/main.cpp.obj: CMakeFiles/task1.dir/flags.make
-CMakeFiles/task1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Documents\GitHub\exercises2\task1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task1.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task1.dir\main.cpp.obj -c C:\Users\User\Documents\GitHub\exercises2\task1\main.cpp
+CMakeFiles/task1.dir/src/main.cpp.obj: CMakeFiles/task1.dir/flags.make
+CMakeFiles/task1.dir/src/main.cpp.obj: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Documents\GitHub\exercises2\task1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task1.dir/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task1.dir\src\main.cpp.obj -c C:\Users\User\Documents\GitHub\exercises2\task1\src\main.cpp
 
-CMakeFiles/task1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\GitHub\exercises2\task1\main.cpp > CMakeFiles\task1.dir\main.cpp.i
+CMakeFiles/task1.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\GitHub\exercises2\task1\src\main.cpp > CMakeFiles\task1.dir\src\main.cpp.i
 
-CMakeFiles/task1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\GitHub\exercises2\task1\main.cpp -o CMakeFiles\task1.dir\main.cpp.s
+CMakeFiles/task1.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\GitHub\exercises2\task1\src\main.cpp -o CMakeFiles\task1.dir\src\main.cpp.s
+
+CMakeFiles/task1.dir/src/functions.cpp.obj: CMakeFiles/task1.dir/flags.make
+CMakeFiles/task1.dir/src/functions.cpp.obj: ../src/functions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\User\Documents\GitHub\exercises2\task1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task1.dir/src/functions.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task1.dir\src\functions.cpp.obj -c C:\Users\User\Documents\GitHub\exercises2\task1\src\functions.cpp
+
+CMakeFiles/task1.dir/src/functions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task1.dir/src/functions.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\User\Documents\GitHub\exercises2\task1\src\functions.cpp > CMakeFiles\task1.dir\src\functions.cpp.i
+
+CMakeFiles/task1.dir/src/functions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task1.dir/src/functions.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\User\Documents\GitHub\exercises2\task1\src\functions.cpp -o CMakeFiles\task1.dir\src\functions.cpp.s
 
 # Object files for target task1
 task1_OBJECTS = \
-"CMakeFiles/task1.dir/main.cpp.obj"
+"CMakeFiles/task1.dir/src/main.cpp.obj" \
+"CMakeFiles/task1.dir/src/functions.cpp.obj"
 
 # External object files for target task1
 task1_EXTERNAL_OBJECTS =
 
-task1.exe: CMakeFiles/task1.dir/main.cpp.obj
+task1.exe: CMakeFiles/task1.dir/src/main.cpp.obj
+task1.exe: CMakeFiles/task1.dir/src/functions.cpp.obj
 task1.exe: CMakeFiles/task1.dir/build.make
 task1.exe: CMakeFiles/task1.dir/linklibs.rsp
 task1.exe: CMakeFiles/task1.dir/objects1.rsp
 task1.exe: CMakeFiles/task1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Documents\GitHub\exercises2\task1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable task1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\User\Documents\GitHub\exercises2\task1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable task1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\task1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/User/Documents/GitHub/exercises2/task1/main.cpp" "C:/Users/User/Documents/GitHub/exercises2/task1/cmake-build-debug/CMakeFiles/task1.dir/main.cpp.obj"
+  "C:/Users/User/Documents/GitHub/exercises2/task1/src/functions.cpp" "C:/Users/User/Documents/GitHub/exercises2/task1/cmake-build-debug/CMakeFiles/task1.dir/src/functions.cpp.obj"
+  "C:/Users/User/Documents/GitHub/exercises2/task1/src/main.cpp" "C:/Users/User/Documents/GitHub/exercises2/task1/cmake-build-debug/CMakeFiles/task1.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/User/Documents/GitHub/exercises2/task1/main.cpp">
+		<Unit filename="C:/Users/User/Documents/GitHub/exercises2/task1/include/functions.h">
+			<Option target="task1"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/exercises2/task1/src/functions.cpp">
+			<Option target="task1"/>
+		</Unit>
+		<Unit filename="C:/Users/User/Documents/GitHub/exercises2/task1/src/main.cpp">
 			<Option target="task1"/>
 		</Unit>
 		<Unit filename="C:/Users/User/Documents/GitHub/exercises2/task1/CMakeLists.txt">

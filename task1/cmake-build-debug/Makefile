@@ -128,29 +128,53 @@ task1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/build
 .PHONY : task1/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+src/functions.obj: src/functions.cpp.obj
+.PHONY : src/functions.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/src/functions.cpp.obj
+.PHONY : src/functions.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/functions.i: src/functions.cpp.i
+.PHONY : src/functions.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/src/functions.cpp.i
+.PHONY : src/functions.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/functions.s: src/functions.cpp.s
+.PHONY : src/functions.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/src/functions.cpp.s
+.PHONY : src/functions.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\task1.dir\build.make CMakeFiles/task1.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... task1
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/functions.obj
+	@echo ... src/functions.i
+	@echo ... src/functions.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
