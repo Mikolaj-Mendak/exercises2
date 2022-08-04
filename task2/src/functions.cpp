@@ -2,6 +2,7 @@
 
 
 int solution(int N, int K){
+
     /*
      * first assumptions for correct computation of binomial coefficient
      * if N is lower than K or numbers are negative function returns -1
