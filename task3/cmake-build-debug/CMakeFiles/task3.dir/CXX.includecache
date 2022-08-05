@@ -7,14 +7,14 @@
 #IncludeRegexTransform: 
 
 C:/Users/User/Documents/GitHub/exercises2/task3/include/functions.h
-
-C:/Users/User/Documents/GitHub/exercises2/task3/src/functions.cpp
-../include/functions.h
-C:/Users/User/Documents/GitHub/exercises2/task3/include/functions.h
-
-C:/Users/User/Documents/GitHub/exercises2/task3/src/main.cpp
 iostream
 -
+vector
+-
+algorithm
+-
+
+C:/Users/User/Documents/GitHub/exercises2/task3/src/functions.cpp
 ../include/functions.h
 C:/Users/User/Documents/GitHub/exercises2/task3/include/functions.h
 

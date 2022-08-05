@@ -1,5 +1,8 @@
 #ifndef TASK3_FUNCTIONS_H
 #define TASK3_FUNCTIONS_H
+#include<iostream>
+#include<vector>
+#include <algorithm>
 
 /**
  * recursion function finding factorial of n number
@@ -8,7 +11,7 @@
  * @param n
  * @return factorial of number n
  */
-unsigned long long int factorial(int n);
+unsigned long long factorial(int n);
 
 /**
  * recursion function finding value of n - element of fibonacci sequence
@@ -19,8 +22,11 @@ unsigned long long int factorial(int n);
  * @param n
  * @return fibonacci value of n element of sequence
  */
-unsigned long long int fibonacci(int n);
+unsigned long long fibonacci(int n);
 
-void findMaximum(int n);
+
+void calculateFibonacci(int start, int stop, int iterator);
+void calculateFactorial(int start, int stop, int iterator);
+
 
 #endif //TASK3_FUNCTIONS_H
