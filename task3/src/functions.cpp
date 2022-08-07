@@ -15,43 +15,59 @@ unsigned long long fibonacci(int n){
     return fibonacci(n-1) + fibonacci(n-2);
 }
 
-void calculateFibonacci(int start, int stop, int iterator = 0){
-    vector<unsigned long long> vect;
+void calculateFibonacci(int start, int stop,int iterStart) {
+
     unsigned long long temp = 0;
 
+    cout << endl << "Calculated Fibonacci sequence for input range: ";
+    while (1) {
+        temp = fibonacci(iterStart);
+        if (temp > stop)
+            break;
+        if (temp >= (unsigned long long) start && temp <= (unsigned long long) stop)
+            cout << temp << ", ";
+        iterStart++;
+    }
+}
+
+void calculateFactorial(int start, int stop, int iterStart){
+
+    unsigned long long temp = 0;
+
+    cout<<endl<<"Calculated factorials set for input range: ";
     while(1) {
-        temp = fibonacci(iterator);
+        temp = factorial(iterStart);
         if(temp>stop)
             break;
         if (temp >= (unsigned long long)start && temp <= (unsigned long long)stop)
-            vect.push_back(temp);
-        iterator++;
+            cout<<temp<<", ";
+        iterStart++;
     }
-
-    cout<<"Calculated Fibonacci sequence for input range: ";
-    for(auto i: vect)
-        cout<<i<<", ";
-    cout<<"\nMaximum value of fibonacci sequence for this range: "<<*max_element(vect.begin(), vect.end())<<endl;
-
 }
 
-void calculateFactorial(int start, int stop, int iterator = 0){
-    vector<unsigned long long> vect;
-    unsigned long long temp = 0;
+void biggestFibonacci(int start, int stop, int iterStart){
+    cout<<"\nMaximum value of fibonacci for range <"<<start<<","<<stop<<">:  ";
 
-    while(1) {
-        temp = factorial(iterator);
-        if(temp>stop)
+    while(1){
+        if(fibonacci(iterStart+1)>stop) {
+            cout << fibonacci(iterStart);
             break;
-        if (temp >= (unsigned long long)start && temp <= (unsigned long long)stop)
-            vect.push_back(temp);
-        iterator++;
+        }
+        iterStart++;
     }
-
-    cout<<"Calculated factorials set for input range: ";
-    for(auto i: vect)
-        cout<<i<<", ";
-    cout<<"\nMaximum value of factorial for this range: "<<*max_element(vect.begin(), vect.end())<<endl;
-
 }
+
+void biggestFactorial(int start, int stop, int iterStart){
+    cout<<"\nMaximum value of factorial for range <"<<start<<","<<stop<<">:  ";
+
+    while(1){
+        if(factorial(iterStart+1)>stop) {
+            cout << factorial(iterStart);
+            break;
+        }
+        iterStart++;
+    }
+}
+
+
 
