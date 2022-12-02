@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\c_exer.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\c_exer.dir/objects.a @CMakeFiles\c_exer.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\c_exer.dir/objects.a -Wl,--no-whole-archive -o c_exer.exe -Wl,--out-implib,libc_exer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\c_exer.dir\linklibs.rsp

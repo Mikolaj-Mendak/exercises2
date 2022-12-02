@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/User/Documents/GitHub/exercises2/c_exer/include/main.h
+stdio.h
+-
+
+C:/Users/User/Documents/GitHub/exercises2/c_exer/src/func.c
+../include/main.h
+C:/Users/User/Documents/GitHub/exercises2/c_exer/include/main.h
+
+C:/Users/User/Documents/GitHub/exercises2/c_exer/src/main.c
+../include/main.h
+C:/Users/User/Documents/GitHub/exercises2/c_exer/include/main.h
+

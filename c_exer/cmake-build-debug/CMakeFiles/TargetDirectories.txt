@@ -1,0 +1,3 @@
+C:/Users/User/Documents/GitHub/exercises2/c_exer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/User/Documents/GitHub/exercises2/c_exer/cmake-build-debug/CMakeFiles/c_exer.dir
+C:/Users/User/Documents/GitHub/exercises2/c_exer/cmake-build-debug/CMakeFiles/edit_cache.dir
